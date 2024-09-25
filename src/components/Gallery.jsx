@@ -1,30 +1,35 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import spkImage from '../assets/spk.png';
+import movieImage from '../assets/movie.png';
+import palImage from '../assets/pal.png';
+import expenseImage from '../assets/expense.png';
+import removebgImage from '../assets/removebg.jpg';
 
 const projects = [
   {
     title: 'Decision Support System (DSS)',
-    image: './src/assets/spk.png',
+    image: spkImage,
     category: 'Web Design',
   },
   {
     title: 'Movie App',
-    image: './src/assets/movie.png',
+    image: movieImage,
     category: 'Web Design',
   },
   {
     title: 'Web Company Profile',
-    image: './src/assets/pal.png',
+    image: palImage,
     category: 'Web Design',
   },
   {
     title: 'Expense Tracker',
-    image: './src/assets/expense.png',
+    image: expenseImage,
     category: 'Web Design',
   },
   {
     title: 'Edit Photo',
-    image: './src/assets/removebg.jpg',
+    image: removebgImage,
     category: 'Photo Editing',
   },
 ];
